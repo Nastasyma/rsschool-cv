@@ -10,8 +10,9 @@
 </head>
 <body>
     <header class="header">
-      <nav>
-        <ul class="menu">
+      <div class="container header-container">
+        <nav class="nav">
+        <ul class="nav-list">
             <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
             <li class="nav-item"><a href="#aboutme" class="nav-link">About me</a></li>
             <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
@@ -21,12 +22,21 @@
             <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
         </ul>
       </nav>
+      </div>
     </header>
-      <main class="wrapper main-wrapper">
-        <img src="assets/img/my_photo.jpg" alt="my photo">
-        <h1 class="title">Anastasia Shishmareva</h1>
+      <main class="main">
+          <section class="section section-profile">
+        <img class="section-myphoto" src="assets/img/my_photo.jpg" alt="my photo">
+        <div class="section-title">
+        <h1 class="title">
+          <p>Anastasia</p>
+          <p>Shishmareva</p>
+        </h1>
+      </div>
+      </div>
+      </section>
           <div class="contacts">
-            <h2>Contacts</h2>
+            <h2 id="contacts">Contacts</h2>
             <ul>
               <li><b>Location:</b> Moscow, Russia</li>
               <li><b>Email:</b> stacy.shishmareva@gmail.com</li>
@@ -36,12 +46,12 @@
             </ul>
           </div>
           <div class="About me">
-              <h2>About me</h2>
+              <h2 id="aboutme">About me</h2>
             <p>I am an economist by education, but I would like to try myself as a front-end developer.</p>
             <p>I love traveling, reading and learning, discovering something new.</p>
           </div>
           <div class="Skills">
-              <h2>Skills</h2>
+              <h2 id="skills">Skills</h2>
               <ul>
                 <li>HTML5, CSS3</li>
                 <li>VS Code</li>
@@ -50,22 +60,22 @@
               </ul>
           </div>
           <div class="Education">
-              <h2>Education</h2>
+              <h2 id="education">Education</h2>
               <ol>
                   <li><b>University:</b> Moscow State University of Economics, Statistics, and Informatics, 2008-2013</li>
                   <li><b>Сourses:</b> HTML and CSS Level 1. (The Bauman Moscow State Technical University), 2010</li>
               </ol>
           </div>
           <div class="Code example">
-              <h2>Code example</h2>
-              <p>In progres...</p>
+              <h2 id="code">Code example</h2>
+              <p>In progress...</p>
           </div>
           <div class="My projects">
-              <h2>My projects</h2>
+              <h2 id="myprojects">My projects</h2>
               <p>In progress...</p>
           </div>
           <div class="Languages">
-              <h2>Languages</h2>
+              <h2 id="languages">Languages</h2>
               <ul>
                   <li>Russian – Native</li>
                   <li>English – A1</li>
@@ -73,9 +83,11 @@
           </div>  
       </main>
 <footer class="footer">
-      <div class="wrapper footer-wrapper">
-          <p>Link RSS</p>
-      </div>
+  <div class="container footer-container">
+    <a href="https://github.com/Nastasyma"><img src="assets/svg/github_logo.svg" class="footer-link" alt="gh_logo"></a>
+    <div>© Anastasia Shishmareva 2022</div>
+    <a href="https://rs.school/js/"><img src="assets/svg/rs_school_js_logo.svg" class="rsschool" alt="rs_school_js"></a>
+  </div>
   </footer>   
 </body>
 </html>

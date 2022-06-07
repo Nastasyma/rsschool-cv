@@ -10,16 +10,18 @@
     min-height: 100vh;
     width: 1100px;
    }
+   .header {
+    background-color: #000080;
+  }
    .header-container {
     max-width: 1470px;
-    width: 100%;
     margin: 0 auto;
     padding: 0 auto;
   }
    .nav-list {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     list-style: none;
   }
@@ -35,16 +37,13 @@
     line-height: 50px;
     text-decoration: none;
   }
-  .header {
-    background-color: #000080;
-  }
   .section-profile {
     display: flex;
     justify-content: space-around;
     width: 100%;
     padding: 30px 30px 30px;
     border-bottom: 5px solid #000080;
-    border-left: 5px solid #000080 ;
+    border-left: 5px solid #000080;
   }
   .section-title{
     font-size: 30px;
@@ -54,10 +53,7 @@
   }
   .section-myphoto {
     width: 250px;
-    object-fit: cover;
     box-shadow: 0 4px 4px rgb(0 0 128 / 80%);
-    filter: grayscale(0.2) brightness(1.05);
-    transition: .3s;
     border-radius: 30%;
   }
 .footer {
@@ -73,7 +69,7 @@
   padding: 0 auto;
   color: #ffffff;
   font-size: 20px;
-  width: 100%;
+  max-width: 1470px;
   }
 .footer-link {
   width: 30px;

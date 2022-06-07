@@ -72,6 +72,12 @@ body {
   width: 50%;
 }
 
+@media (max-width: 768px) {
+  .section {
+    width: 100%;
+  }
+}
+
 .section-profile {
   display: flex;
   justify-content: space-around;

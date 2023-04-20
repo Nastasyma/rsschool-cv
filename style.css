@@ -187,7 +187,9 @@ body {
 .horror_icon,
 .zoo_icon,
 .puzzle_icon,
-.bird_icon {
+.bird_icon,
+.shelter_icon,
+.smile_icon {
   width: 25px;
   height: 25px;
   margin-right: 46px;

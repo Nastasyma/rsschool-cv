@@ -82,6 +82,7 @@ body {
 
 .section {
   width: 50%;
+  padding: 0 20px;
 }
 
 @media (max-width: 768px) {
@@ -151,6 +152,7 @@ body {
 
 .footer-container {
   display: flex;
+  gap: 15px;
   justify-content: space-between;
   align-items: center;
   vertical-align: middle;
@@ -181,6 +183,12 @@ body {
   height: 20px;
   margin-right: 20px;
 }
+#contacts,
+#skills,
+#myprojects,
+#languages {
+  background-color: #f6f6fc;
+}
 
 .travel_icon,
 .momentum_icon,
@@ -189,9 +197,27 @@ body {
 .puzzle_icon,
 .bird_icon,
 .shelter_icon,
-.smile_icon {
+.smile_icon,
+.keyboard_icon {
   width: 25px;
   height: 25px;
   margin-right: 46px;
 }
 
+@media (max-width: 768px) {
+  h1 {
+    font-size: 32px;
+  }
+  .title2 {
+    font-size: 18px;
+  }
+  .section-profile-title {
+    padding: 30px 20px 10px 20px;
+  }
+  code {
+    font-size: 14px;
+  }
+  .main-container {
+    padding: 0 20px 0 50px;
+  }
+}

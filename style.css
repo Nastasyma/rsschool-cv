@@ -199,7 +199,9 @@ body {
 .shelter_icon,
 .smile_icon,
 .keyboard_icon,
-.mine_icon {
+.mine_icon,
+.news_icon,
+.cube_icon {
   width: 25px;
   height: 25px;
   margin-right: 46px;

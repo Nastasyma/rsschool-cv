@@ -97,7 +97,7 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   width: 80%;
   padding: 30px 30px 30px;
   border-bottom: 5px solid #000080;
@@ -170,6 +170,7 @@ ul {
 .footer-text {
   font-size: 15px;
   font-family: 'Stint Ultra Expanded';
+  text-align: center;
 }
 
 .footer-link {
@@ -216,7 +217,7 @@ ul {
   filter: invert(100%);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .section {
     width: 100%;
   }
@@ -253,5 +254,16 @@ ul {
   }
   .email {
     font-size: 12px;
+  }
+}
+
+@media (max-width: 650px) {
+  .section-profile {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  body {
+    font-size: 16px;
   }
 }

@@ -21,7 +21,7 @@ html {
 body {
   font-family: 'Titillium Web';
   margin: 20px auto;
-  background-color: #fffbf8;
+  background-color: rgb(222, 222, 222);
   padding: 0;
   font-size: 20px;
   min-height: 100vh;
@@ -34,6 +34,7 @@ body {
 
 .main {
   margin-bottom: auto;
+  background-color: #fffbf8;
 }
 
 .container {
@@ -207,7 +208,10 @@ ul {
 .mushroom_icon,
 .forms_icon,
 .graphiql_icon,
-.skill-icon {
+.skill-icon,
+.museum_icon,
+.fight_icon,
+.portfolio_icon {
   width: 25px;
   height: 25px;
   margin-right: 20px;
